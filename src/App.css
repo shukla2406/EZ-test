@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  /* border: 2px solid red; */
+  width: 40vw;
+}
+.right{
+  /* border: 2px solid red; */
+  width: 60vw;
+}
+@media (max-width: 940px) {
+  .App{
+    flex-direction: column;
+    height: max-content;
+  }
+  .left{
+    width: 100vw;
+  }
+  .right{
+    width: 100vw;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .services-section {
+    flex-direction: column;
+  }
+
+  .service-card {
+    flex: 1 1 100%;
+  }
+} */
